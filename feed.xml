@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>欣的代码驿站</title>
+        <link>https://xxxxx/</link>
+        <description></description>
+        <lastBuildDate>Wed, 27 Nov 2024 03:01:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>欣的代码驿站</title>
+            <url>https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg</url>
+            <link>https://xxxxx/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 欣欣子</copyright>
+        <atom:link href="https://xxxxx/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[post test]]></title>
+            <link>https://xxxxx/posts/post-test</link>
+            <guid>https://xxxxx/posts/post-test</guid>
+            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>属于 post 博客测试页面</h2>
+<br/><p>访问 <a href="https://xxxxx/posts/post-test" target="_blank">https://xxxxx/posts/post-test</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+    </channel>
+</rss>

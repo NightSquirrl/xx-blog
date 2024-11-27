@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "欣的代码驿站",
+    "home_page_url": "https://xxxxx/",
+    "feed_url": "https://xxxxx/feed.json",
+    "icon": "https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg",
+    "author": {
+        "name": "欣欣子",
+        "url": "xxxxx"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>属于 post 博客测试页面</h2>\n<br/><p>访问 <a href=\"https://xxxxx/posts/post-test\" target=\"_blank\">https://xxxxx/posts/post-test</a> 阅读全文。</p>",
+            "url": "https://xxxxx/posts/post-test",
+            "title": "post test",
+            "date_modified": "2024-11-27T00:00:00.000Z",
+            "date_published": "2024-11-27T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        }
+    ]
+}

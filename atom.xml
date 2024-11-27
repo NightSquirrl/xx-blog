@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xxxxx/</id>
+    <title>欣的代码驿站</title>
+    <updated>2024-11-27T03:01:02.822Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>欣欣子</name>
+        <email>i@valaxy.site</email>
+        <uri>xxxxx</uri>
+    </author>
+    <link rel="alternate" href="https://xxxxx/"/>
+    <link rel="self" href="https://xxxxx/atom.xml"/>
+    <logo>https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg</logo>
+    <icon>https://xxxxx/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 欣欣子</rights>
+    <entry>
+        <title type="html"><![CDATA[post test]]></title>
+        <id>https://xxxxx/posts/post-test</id>
+        <link href="https://xxxxx/posts/post-test"/>
+        <updated>2024-11-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>属于 post 博客测试页面</h2>
+<br/><p>访问 <a href="https://xxxxx/posts/post-test" target="_blank">https://xxxxx/posts/post-test</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-27T00:00:00.000Z</published>
+    </entry>
+</feed>
