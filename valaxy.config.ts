@@ -12,7 +12,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: "yun",
   vite: {
-    base: "./",
+    base: "/xx-blog",
   },
   themeConfig: {
     banner: {
