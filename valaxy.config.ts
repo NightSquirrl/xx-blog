@@ -2,19 +2,31 @@ import { defineValaxyConfig } from "valaxy";
 import type { UserThemeConfig } from "valaxy-theme-yun";
 
 // add icons what you will need
-const safelist = ["i-ri-home-line", "i-ri-price-tag-3-fill","i-ri-increase-decrease-fill"];
+const safelist = [
+  "i-ri-home-line",
+  "i-ri-price-tag-3-fill",
+  "i-ri-increase-decrease-fill",
+];
 
 /**
  * User Config
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-
   theme: "yun",
+
   vite: {
     base: "/xx-blog/",
   },
   themeConfig: {
+    bg_image: {
+      enable: true,
+      url: "bg.png",
+      opacity: 0.5,
+    },
+    colors: {
+      primary: "#fcb423",
+    },
     banner: {
       enable: true,
       title: "欣欣子的笔记站",
