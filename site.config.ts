@@ -1,7 +1,8 @@
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
-  url: "https://xxxxx",
+  url: "https://nightsquirrl.github.io/xx-blog",
+  favicon:'https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg',
   lang: "zh-CN",
   license: {
     enabled:true
