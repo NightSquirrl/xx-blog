@@ -1,9 +1,7 @@
 ---
-title: 我的小伙伴们
-keywords: 链接
-description: 云游的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
+title: 前端的代码集合
 random: true
 ---
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+## 项目初始化
+1. [Vue项目初始化](../posts/project-init/vue/init.md)
