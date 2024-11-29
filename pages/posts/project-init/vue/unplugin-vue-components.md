@@ -1,7 +1,7 @@
 ---
-title:unplugin-vue-components
-date: 2024-11-28
-updated: 2024-11-28
+title:unplugin-vue-components组件自动按需引入
+date: 2024-11-29
+updated: 2024-11-29
 categories: 项目初始化
 tags:
   - vue
@@ -9,6 +9,7 @@ tags:
   - 依赖
 top: 96
 ---
+
 ==Vue按需自动导入组件==
 特点：
 💚 支持Vue 2和Vue 3，开箱即用。
