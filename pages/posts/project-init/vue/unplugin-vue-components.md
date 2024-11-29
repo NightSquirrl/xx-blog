@@ -1,5 +1,5 @@
 ---
-title:unplugin-vue-components组件自动按需引入
+title: unplugin-vue-components组件自动按需引入
 date: 2024-11-29
 updated: 2024-11-29
 categories: 项目初始化
