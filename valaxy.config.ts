@@ -21,7 +21,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     bg_image: {
       enable: true,
-      url: "bg.png",
+      url: "https://img.picgo.net/2024/11/29/bgdcb8556058269c3c.jpeg",
       opacity: 0.5,
     },
     colors: {
