@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>欣的代码驿站</title>
+        <link>https://nightsquirrl.github.io/xx-blog/</link>
+        <description></description>
+        <lastBuildDate>Fri, 29 Nov 2024 02:59:51 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>欣的代码驿站</title>
+            <url>https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg</url>
+            <link>https://nightsquirrl.github.io/xx-blog/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 欣欣子</copyright>
+        <atom:link href="https://nightsquirrl.github.io/xx-blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[axios网络请求配置]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</guid>
+            <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>依赖安装</h2>
+<pre><code class="language-bash">npm i axios
+</code></pre>
+<h2>axios 配置文件</h2>
+<p>新建文件<code>http.ts</code> 选择合适的位置存放</p>
+<pre><code class="language-typescript">import axios</code></pre>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/axios" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+        <item>
+            <title><![CDATA[路径别名]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</guid>
+            <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>什么是路径别名?<br>
+在项目中引入文件,使用相对路径引入比如<code>'../../xx/xx'</code>在很多情况下,很难清除的时候,准确的路径,所以为了方便引入,可以给所引入的路径添加一个名字</p>
+<blockquote>
+<p>安装依赖</p>
+</blockquote>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+        <item>
+            <title><![CDATA[unplugin-vue-components组件自动按需引入]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</guid>
+            <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>==Vue按需自动导入组件==<br>
+特点：<br>
+💚 支持Vue 2和Vue 3，开箱即用。<br>
+✨ 支持组件和指令。<br>
+⚡️ 基于unplugin技术，支持Vite、Webpack、Vue CLI、Rollup</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+        <item>
+            <title><![CDATA[Vue扩展安装]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</guid>
+            <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Vue-Official</h2>
+<p>Vue - Official (之前是 Volar) 是官方的 VS Code 扩展，提供了 Vue 单文件组件中的 TypeScript 支持，还伴随着一些其他非</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+        <item>
+            <title><![CDATA[项目初始化 vue+vite+typescrit+eslint]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</guid>
+            <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Vue项目的手动搭建</h1>
+<h2>Vue项目的创建</h2>
+<h3>vite命令创建</h3>
+<blockquote>
+<p>直接创建vite+vue 项目</p>
+</blockquote>
+<pre><code class="language-bash">npm init vite
+
+# 选择 vue
+
+# 选择 ty</code></pre>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+        <item>
+            <title><![CDATA[unplugin-auto-import]]></title>
+            <link>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</link>
+            <guid>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</guid>
+            <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>使用composition api函数、Vue Router、pinia状态管理等官方API需要在页面中显式引入。而使用unplugin-auto-import插件可以自动导入这些API，从而提高开</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (欣欣子)</author>
+        </item>
+    </channel>
+</rss>

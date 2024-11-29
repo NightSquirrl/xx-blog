@@ -1,0 +1,85 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "欣的代码驿站",
+    "home_page_url": "https://nightsquirrl.github.io/xx-blog/",
+    "feed_url": "https://nightsquirrl.github.io/xx-blog/feed.json",
+    "icon": "https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg",
+    "author": {
+        "name": "欣欣子",
+        "url": "xxxxx"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>依赖安装</h2>\n<pre><code class=\"language-bash\">npm i axios\n</code></pre>\n<h2>axios 配置文件</h2>\n<p>新建文件<code>http.ts</code> 选择合适的位置存放</p>\n<pre><code class=\"language-typescript\">import axios</code></pre>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/project-init/axios\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/project-init/axios",
+            "title": "axios网络请求配置",
+            "date_modified": "2024-11-29T00:00:00.000Z",
+            "date_published": "2024-11-29T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>什么是路径别名?<br>\n在项目中引入文件,使用相对路径引入比如<code>'../../xx/xx'</code>在很多情况下,很难清除的时候,准确的路径,所以为了方便引入,可以给所引入的路径添加一个名字</p>\n<blockquote>\n<p>安装依赖</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias",
+            "title": "路径别名",
+            "date_modified": "2024-11-29T00:00:00.000Z",
+            "date_published": "2024-11-29T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>==Vue按需自动导入组件==<br>\n特点：<br>\n💚 支持Vue 2和Vue 3，开箱即用。<br>\n✨ 支持组件和指令。<br>\n⚡️ 基于unplugin技术，支持Vite、Webpack、Vue CLI、Rollup</p>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components",
+            "title": "unplugin-vue-components组件自动按需引入",
+            "date_modified": "2024-11-29T00:00:00.000Z",
+            "date_published": "2024-11-29T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Vue-Official</h2>\n<p>Vue - Official (之前是 Volar) 是官方的 VS Code 扩展，提供了 Vue 单文件组件中的 TypeScript 支持，还伴随着一些其他非</p>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand",
+            "title": "Vue扩展安装",
+            "date_modified": "2024-11-28T00:00:00.000Z",
+            "date_published": "2024-11-28T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Vue项目的手动搭建</h1>\n<h2>Vue项目的创建</h2>\n<h3>vite命令创建</h3>\n<blockquote>\n<p>直接创建vite+vue 项目</p>\n</blockquote>\n<pre><code class=\"language-bash\">npm init vite\n\n# 选择 vue\n\n# 选择 ty</code></pre>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init",
+            "title": "项目初始化 vue+vite+typescrit+eslint",
+            "date_modified": "2024-11-28T00:00:00.000Z",
+            "date_published": "2024-11-28T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>使用composition api函数、Vue Router、pinia状态管理等官方API需要在页面中显式引入。而使用unplugin-auto-import插件可以自动导入这些API，从而提高开</p>\n<br/><p>访问 <a href=\"https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import\" target=\"_blank\">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</a> 阅读全文。</p>",
+            "url": "https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import",
+            "title": "unplugin-auto-import",
+            "date_modified": "2024-11-28T00:00:00.000Z",
+            "date_published": "2024-11-28T00:00:00.000Z",
+            "author": {
+                "name": "欣欣子",
+                "url": "xxxxx"
+            }
+        }
+    ]
+}
