@@ -289,7 +289,19 @@ npm i typescript vue-tsc
 }
 
 ```
+> 配置都完成之后,以`main.ts`为例 所引入的App.vue 如果提示无法找到声明模块,有两种方案解决
+> 产生的原因是`vscode`无法识别到改类型的文件
 
+1. 告诉 TypeScript 编译器如何处理 .vue 文件。具体来说，它声明了对所有 .vue 文件的类型支持，使得 TypeScript 能够理解 .vue 文件中的组件是如何定义和导出的。<span style="color:red">缺点:导致,无法正确的点击跳转文件,会直接进如该文件中</span>
+ ```javascript
+ // src\vite-env.d.ts
+ declare module "*.vue" {
+  import type { DefineComponent } from "vue";
+  const component: DefineComponent<typeof DefineComponent>;
+  export default component;
+}
+ ```
+2. [插件安装 - Vue-Official](../../expand-install/vue-expand.md)
 ## eslint集成
 
 `v9` 与其他版本是不同的,配置文件,以及配置的格式都出现了区别
