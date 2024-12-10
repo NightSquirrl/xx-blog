@@ -1,0 +1,1 @@
+import{ac as e,x as i}from"./app-CLGX1n_q.js";function u(o){if(!o)return{color:"",icon:"",styles:void 0};const r=e();o in r.value.types||(o="link");const s=r.value.types[o].color,n=r.value.types[o].icon,c=i(()=>o?{"--card-c-primary":s}:void 0);return{color:s,icon:n,styles:c}}export{u};

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nightsquirrl.github.io/xx-blog/</id>
+    <title>欣的代码驿站</title>
+    <updated>2024-12-10T02:37:36.303Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>欣欣子</name>
+        <email>i@valaxy.site</email>
+        <uri>xxxxx</uri>
+    </author>
+    <link rel="alternate" href="https://nightsquirrl.github.io/xx-blog/"/>
+    <link rel="self" href="https://nightsquirrl.github.io/xx-blog/atom.xml"/>
+    <logo>https://img.picgo.net/2024/11/27/IMG_2742a0295d98a1ea79ee.jpeg</logo>
+    <icon>https://nightsquirrl.github.io/xx-blog/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 欣欣子</rights>
+    <entry>
+        <title type="html"><![CDATA[vue3.0 中为什么要使用 Proxy，它相比以前的实现方式有什么改进]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/vue/vue-1</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/vue/vue-1"/>
+        <updated>2024-12-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>简单描述</h3>
+<p>性能更好，解决无法监听数组变化问题</p>
+<h3>略微详细</h3>
+<ul>
+<li>Vue2.x通过给每个对象添加getter setter属性去改变对象,实现对数据的观测,Vue3.x通过Proxy</li>
+</ul>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/vue/vue-1" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/vue/vue-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-12-10T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[axios网络请求配置]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/project-init/axios"/>
+        <updated>2024-11-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>依赖安装</h2>
+<pre><code class="language-bash">npm i axios
+</code></pre>
+<h2>axios 配置文件</h2>
+<p>新建文件<code>http.ts</code> 选择合适的位置存放</p>
+<pre><code class="language-typescript">import axios</code></pre>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/axios" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/axios</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[路径别名]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias"/>
+        <updated>2024-11-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>什么是路径别名?<br>
+在项目中引入文件,使用相对路径引入比如<code>'../../xx/xx'</code>在很多情况下,很难清除的时候,准确的路径,所以为了方便引入,可以给所引入的路径添加一个名字</p>
+<blockquote>
+<p>安装依赖</p>
+</blockquote>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/path-alias</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[unplugin-vue-components组件自动按需引入]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components"/>
+        <updated>2024-11-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>==Vue按需自动导入组件==<br>
+特点：<br>
+💚 支持Vue 2和Vue 3，开箱即用。<br>
+✨ 支持组件和指令。<br>
+⚡️ 基于unplugin技术，支持Vite、Webpack、Vue CLI、Rollup</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-vue-components</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue扩展安装]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand"/>
+        <updated>2024-11-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Vue-Official</h2>
+<p>Vue - Official (之前是 Volar) 是官方的 VS Code 扩展，提供了 Vue 单文件组件中的 TypeScript 支持，还伴随着一些其他非</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/expand-install/vue-expand</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-28T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[项目初始化 vue+vite+typescrit+eslint]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init"/>
+        <updated>2024-11-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>Vue项目的手动搭建</h1>
+<h2>Vue项目的创建</h2>
+<h3>vite命令创建</h3>
+<blockquote>
+<p>直接创建vite+vue 项目</p>
+</blockquote>
+<pre><code class="language-bash">npm init vite
+
+# 选择 vue
+
+# 选择 ty</code></pre>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/init</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-28T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[unplugin-auto-import]]></title>
+        <id>https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</id>
+        <link href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import"/>
+        <updated>2024-11-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>使用composition api函数、Vue Router、pinia状态管理等官方API需要在页面中显式引入。而使用unplugin-auto-import插件可以自动导入这些API，从而提高开</p>
+<br/><p>访问 <a href="https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import" target="_blank">https://nightsquirrl.github.io/xx-blog/posts/project-init/vue/unplugin-auto-import</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>欣欣子</name>
+            <email>i@valaxy.site</email>
+            <uri>xxxxx</uri>
+        </author>
+        <published>2024-11-28T00:00:00.000Z</published>
+    </entry>
+</feed>
